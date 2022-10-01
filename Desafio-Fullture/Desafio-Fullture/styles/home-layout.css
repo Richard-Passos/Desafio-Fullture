@@ -1,0 +1,56 @@
+  body {
+    margin: 0 auto;
+    font-size: 32px;
+    height: 2000px;
+    width: 1300px;
+    background-color: #eee;
+  }
+
+
+
+section.spider-man {
+    height: 680px;
+    background-size: cover;
+    background-image: url(
+      /Desafio-Fullture/imagens-atualizadas/spidermanheader.jpg
+      );
+  }
+  .title_spider-man {
+    width: 50%;
+  }
+  .title_spider-man img {
+    margin: 25% 10%;
+    width: 50%;
+  }
+
+
+
+  section.thor {
+    height: 680px;
+    background-size: cover;
+    background-image: url(
+      /Desafio-Fullture/imagens-atualizadas/thor_header.jpg
+      );
+    color: #fff;
+  }
+  .thor h3 {
+    border-color: #fff;
+  }
+
+
+
+  section.toys {
+    height: 640px;
+    background-color: #fff;
+    color: #555;
+  }
+  .toys .img {
+    width: 50%;
+    float: left;
+    padding-top: 10%;
+  }
+  .img img {
+    width: 100%;
+    height: 400px;
+    margin-top: 4%;
+  }

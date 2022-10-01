@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    font-size: 32px;
+    height: 1425px;
+    width: 1300px;
+    background-color: #eee;
+  }
+  
+  .section-header {
+    height: 775px;
+    background-image: url(/Desafio-Fullture/imagens-atualizadas/contatoheader.jpg);
+    background-size: cover;
+  }
+  
+  .title-contact {
+    margin-top: 28%;
+    margin-left: 18%;
+  }
+  .title-contact img{
+    width: 40%;
+  }  
