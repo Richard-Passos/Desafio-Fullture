@@ -12,7 +12,7 @@ section.spider-man {
     height: 680px;
     background-size: cover;
     background-image: url(
-      /Desafio-Fullture/imagens-atualizadas/spidermanheader.jpg
+      /imagens-atualizadas/spidermanheader.jpg
       );
   }
   .title_spider-man {
@@ -29,14 +29,13 @@ section.spider-man {
     height: 680px;
     background-size: cover;
     background-image: url(
-      /Desafio-Fullture/imagens-atualizadas/thor_header.jpg
+      /imagens-atualizadas/thor_header.jpg
       );
     color: #fff;
   }
-  .thor h3 {
-    border-color: #fff;
+  .thor .subtitle:after {
+    background-color: #fff;
   }
-
 
 
   section.toys {

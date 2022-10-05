@@ -1,28 +1,43 @@
   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 90px;
-    padding: 1% 3.5% 0 3.5%;
     box-shadow: 0 4px 8px 0;
   }
 
-  .logo {
-    float: left;
-  }
   .logo img {
     margin-left: 40px;
     width: 50%;
   }
 
-  .nav-header {
-    padding-top: 1%;
-    float: right;
+  .add-slash-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .add-slash-bottom:after {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #ff6b57;
+    margin: 3px 0 0 4%;
+  }
+  .catalog-slash:after {
+    margin-left: 36.5%;
+  }
+  .contact-slash:after {
+    margin-left: 73%;
   }
 
   .nav-header a {
     transition: all 1s;
-    margin-right: 40px;
     color: #fff;
     border-color: #ff6b57;
+    margin-right: 40px;
   }
   .nav-header a:hover {
     background-color: #ff6b57;
@@ -32,3 +47,4 @@
     border-radius: 30px;
     box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 0.5);
   }
+
