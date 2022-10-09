@@ -1,15 +1,10 @@
   .contact-button {
+    grid-column: 1/3;
     text-align: center;
+  }
+  .contact-button button {
     width: 100%;
-    display: block;
-    border: 2px solid #fc3836;
     padding: 15px;
-    border-radius: 30px;
-    background-color: #fc3836;
-  }
-  .contact-button a {
-    color: #fff;
-  }
-  .contact-button a:hover {
-    color: #000;
+    font-size: 32px;
+    margin: 0;
   }

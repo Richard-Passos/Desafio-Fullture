@@ -1,9 +1,0 @@
-  .text { 
-    width: 100%;
-    flex: 1 100%;
-    padding: 8%;
-  } 
-  .text p {
-    padding-bottom: 5%;
-    font-size: 28px;
-  }

@@ -1,0 +1,58 @@
+  section.background-spider-man {
+    width: 100%;
+    background-size: cover;
+    background-image: url(
+      /imagens-atualizadas/spidermanheader.jpg
+      );
+  }
+
+  .title_spider-man {
+    width: 50%;
+  }
+
+  .title_spider-man img {
+    margin: 25% 10%;
+    width: 50%;
+  }
+
+
+
+  section.background-thor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url(
+      /imagens-atualizadas/thor_header.jpg
+      );
+    color: #fff;
+  }
+
+  .background-thor .subtitle:after {
+    background-color: #fff;
+  }
+
+
+
+  section.background-toys {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: #555;
+  }
+
+  .background-toys .img {
+    grid-column: 1/2;
+  }
+
+  .background-toys .img img {
+    width: 100%;
+  }
+
+  .background-toys .button {
+    margin: 0;
+    padding: 2.5%;
+    font-size: 32px;
+  }
