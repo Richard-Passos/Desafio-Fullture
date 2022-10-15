@@ -1,0 +1,16 @@
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    color: var(--gray);
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .adjusting-width {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+

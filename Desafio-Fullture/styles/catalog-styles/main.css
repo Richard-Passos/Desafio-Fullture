@@ -1,0 +1,12 @@
+  .main {
+    width: 100%;
+    color: var(--gray);
+  }
+
+  /* Responsivo */
+
+  @media only screen and  (min-width: 350px) and (max-width: 992px) {
+    #catalog-page-body {
+      font-size: 28px;
+    }
+  }

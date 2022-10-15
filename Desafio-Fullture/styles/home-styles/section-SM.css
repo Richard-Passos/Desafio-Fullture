@@ -1,0 +1,17 @@
+  section.background-spider-man {
+    width: 100%;
+    min-height: 850px;
+    background-size: cover;
+    background-image: url(
+      /imagens-atualizadas/spidermanheader.jpg
+      );
+    background-position: center;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 600px) {
+    section.background-spider-man {
+      background-position: 45%;
+    }
+  }

@@ -1,0 +1,31 @@
+  section.background-thor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 600px;
+    background-size: cover;
+    background-image: url(
+      /imagens-atualizadas/thor_header.jpg
+      );
+    background-position: 45%;
+    color: var(--white);
+  }
+
+  .background-thor .subtitle:after {
+    background-color: var(--white);
+  }
+
+  .background-thor .thor-text {
+    margin: 0 auto 50px;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 600px) {
+    section.background-thor {
+      display: flex;
+      flex-direction: column;
+      background-image: none;
+      background-color: var(--light-red);
+      min-height: initial;
+    }
+  }

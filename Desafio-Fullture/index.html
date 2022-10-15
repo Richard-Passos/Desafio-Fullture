@@ -5,32 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/variable.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/home-sections.css">
-    <link rel="stylesheet" href="styles/home-texts.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/layout-title..css">
+    <link rel="stylesheet" href="styles/subtitle.css">
+    <link rel="stylesheet" href="styles/home-styles/section-SM.css">
+    <link rel="stylesheet" href="styles/home-styles/section-TH.css">
+    <link rel="stylesheet" href="styles/home-styles/section-TO.css">
+    <link rel="stylesheet" href="styles/home-styles/texts.css">
     <title>Desafio Fullture</title>
   </head>
 
   <body class="app-layout">
     <main class="main-layout">
-      <section class="background-spider-man">
+      <section class="background-spider-man section-header">
         <header class="header">
-          <div class="logo">
-            <a href="index.html"><img src="/imagens-atualizadas/logo.png" alt="Logo"></a>
-          </div>
+          <a href="index.html">
+            <div class="logo">
+              <img src="../imagens-atualizadas/logo.png" alt="">
+            </div>  
+          </a>
 
-          <div class="header-border-bottom">
-            <nav class="nav-header">
-              <a href="index.html">Home</a>
-              <a href="catalog.html">Catálogo</a>
-              <a href="contact.html">Contato</a>
-            </nav>
-          </div>
+          <nav class="nav-header">
+            <div class="container-nav-list">
+              <a class="header-a" href="index.html">Home</a>
+              <a class="separator" role="separator">|</a>
+              <a class="header-a" href="catalog.html">Catálogo</a>
+              <a class="separator" role="separator">|</a>
+              <a class="header-a" href="contact.html">Contato</a>
+            </div>
+          </nav>
         </header>
 
-        <div class="title_spider-man">
-          <img src="/imagens-atualizadas/title_spiderman.png" alt="">
+        <div class="container-title-img">
+          <img class="title-img home-title" src="/imagens-atualizadas/title_spiderman.png" alt="">
         </div>
       </section>
 
@@ -39,7 +49,7 @@
           <h3>QUEM SOMOS</h3>
         </div>
 
-        <div class="text">
+        <div class="home-texts thor-text">
           <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam a architecto, 
           explicabo atque, nam hic maiores perferendis laborum cumque ea voluptate accusamus 
@@ -63,28 +73,26 @@
           <h3>CATÁLOGO</h3>
         </div>
         
-        <div class="img">
-          <img src="/imagens-atualizadas/bonecos.png" alt="">
-        </div>
+        <div class="container-section-toys">
+          <div class="container-toys-img">
+            <img class="toys-img" src="/imagens-atualizadas/bonecos.png" alt="">
+          </div>
 
-        <div class="text">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum consectetur aperiam asperiores, 
-            provident quaerat doloremque dolores sed iusto delectus mollitia placeat tenetur, voluptatum est quis 
-            modi aliquam ex? Aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum 
-            consectetur aperiam asperiores, provident quaerat doloremque dolores sed iusto delectus mollitia 
-            placeat tenetur, voluptatum est quis modi aliquam ex? Aliquid explicabo atque, 
-            nam hic maiores perferendis laborum cumque ea voluptate accusamus fuga quo explicabo 
-            atque, nam hic maiores perferendis laborum cumque ea voluptate accusamus fuga quo
-          </p>
+          <div class="home-texts">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum consectetur aperiam asperiores, 
+              provident quaerat doloremque dolores sed iusto delectus mollitia placeat tenetur, voluptatum est quis 
+              modi aliquam ex? Aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum 
+              consectetur aperiam asperiores, provident quaerat doloremque dolores sed iusto delectus mollitia 
+              placeat tenetur, voluptatum est quis modi aliquam ex? Aliquid explicabo atque, 
+              nam hic maiores perferendis laborum cumque ea voluptate accusamus fuga quo explicabo 
+              atque, nam hic maiores perferendis laborum cumque ea voluptate accusamus fuga quo
+            </p>
 
-          <a href="catalog.html"><button class="button">VER CATÁLOGO</button></a>
+            <a href="catalog.html"><button class="button toys-button">VER CATÁLOGO</button></a>
+          </div>
         </div>
       </section>
     </main>
-
-    <div class="assy">
-      <span>Made by: Richard P</span>
-    </div>
   </body>
 </html>

@@ -1,0 +1,18 @@
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container-title-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .title-img {
+    width: 25%;
+    min-height: 150px;
+    min-width: 200px;
+    margin: 24px;
+  }

@@ -1,0 +1,19 @@
+  .home-texts { 
+    grid-column: 2/span 1;
+    padding: 0 8%;
+    margin: 0 auto 30px;
+  }
+  
+  .home-texts p {
+    font-size: 0.6em;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 600px) {
+    .home-texts {
+      width: 80%;
+      padding: 0;
+      text-align: center;
+    }
+  }

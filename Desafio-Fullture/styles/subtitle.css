@@ -1,0 +1,24 @@
+  .subtitle {
+    margin: 32px 0;
+    grid-column: 1/span 2;
+    text-align: center;
+  }
+  .subtitle:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: var(--light-red);
+    margin: 8px auto;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 600px) {
+    .subtitle {
+      padding: 24px 0 16px;
+    }
+    .subtitle:after {
+      width: 75px;
+    }
+  }
