@@ -1,7 +1,8 @@
-  .section-header {
+  .background-contact-img {
     min-height: 850px;
     background-image: url(/imagens-atualizadas/contatoheader.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   .contact-title {
@@ -11,8 +12,13 @@
 
   /* Responsive */
 
-  @media only screen and (max-width: 1200px) {
-    .section-header {
-      background-position: 58%;
+  @media only screen and (min-width: 1700px) {
+    .background-contact-img {
+      min-height: 1300px;
+    }
+    
+    .container-title-img .contact-title {
+      width: 600px;
+      height: 300px;
     }
   }

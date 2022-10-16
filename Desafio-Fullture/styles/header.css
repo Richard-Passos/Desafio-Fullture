@@ -8,11 +8,6 @@
   }
 
   .logo {
-    display: flex;
-    max-width: 100%;
-  }
-  
-  .logo img {
     width: 200px;
   }
 
@@ -45,9 +40,10 @@
   /* Responsive */
   
   @media screen and (max-width: 300px) {
-    .logo {
+    .container-logo {
       margin-bottom: 16px;
     }
+
     .container-nav-list {
       display: flex;
       flex-direction: column;
@@ -75,13 +71,25 @@
     .header {
       flex-direction: column;
       height: 185px;
-      padding: 24px 0;
     }
+
+  .container-logo {
+    margin-top: 24px;
+  }
 
     .nav-header {
       max-width: initial;
     }
+  }
 
+  @media only screen and (min-width: 1700px) {
+    .container-logo {
+      margin-top: 50px;
+    }
+    
+    .logo {
+      width: 300px;
+    }
   }
 
 

@@ -3,6 +3,7 @@
     min-height: 850px;
     background-image: url(/imagens-atualizadas/captainmarvelheader.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   .container-title-img .catalog-title {
@@ -22,12 +23,23 @@
   @media only screen and (min-width: 601px) and (max-width: 992px) {
     .catalog-background-img {
       height: 600px;
-      background-position: 30%;
     }
   }
 
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .catalog-background-img {
       height: 700px;
+    }
+  }
+
+  @media only screen and (min-width: 1700px) {
+    .catalog-background-img {
+      min-height: 1200px;
+      background-position: center 65%;
+    }
+
+    .container-title-img .catalog-title {
+      width: 650px;
+      height: 350px;
     }
   }

@@ -23,8 +23,7 @@
   .toys-button {
     border-radius: 25px;
     margin-top: 32px;
-    padding: 12px;
-    font-size: 32px;
+    font-size: 0.9em;
   }
 
   /* Responsive */
@@ -44,6 +43,16 @@
   @media only screen and (max-width: 1200px) {
     .background-toys .button {
       border-radius: 20px;
-      font-size: 24px;
+      padding: 12px;
+    }
+  }
+
+  @media only screen and (min-width: 1700px) {
+    section.background-toys {
+      min-height: 1000px;
+    }
+
+    .background-toys .button {
+      border-radius: 30px;
     }
   }

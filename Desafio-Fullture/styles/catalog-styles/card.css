@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
     justify-content: center;
-    width: 90%;
-    margin: 0 auto 32px;
+    width: 80%;
+    margin: 0 auto 64px;
     gap: 32px;
   }
   .card-itens {
@@ -41,10 +41,26 @@
     width: 70%;
   }
 
+  .icon-favorite {
+    font-size: 1em;
+  }
+
   /* Responsive */
 
   @media only screen and (min-width: 350px) and (max-width: 992px) {
     .card-btn {
       width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 1650px) {
+    .catalog {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px;
+    }
+
+    .card-itens {
+      padding: 32px;
+      max-height: initial;
     }
   }

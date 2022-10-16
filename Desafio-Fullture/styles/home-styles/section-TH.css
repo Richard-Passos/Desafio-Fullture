@@ -29,3 +29,9 @@
       min-height: initial;
     }
   }
+
+  @media only screen and (min-width: 1700px) {
+    section.background-thor {
+      min-height: 1000px;
+    }
+  }

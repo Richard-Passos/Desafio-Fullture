@@ -15,3 +15,9 @@
       background-position: 45%;
     }
   }
+
+  @media only screen and (min-width: 1700px) {
+    section.background-spider-man {
+      min-height: 1200px;
+    }
+  }

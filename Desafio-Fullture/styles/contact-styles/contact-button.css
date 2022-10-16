@@ -6,13 +6,12 @@
   .contact-btn {
     width: 100%;
     padding: 16px;
-    font-size: 32px;
   }
 
     /* Responsive */
 
-  @media only screen and (max-width: 1200px) {
-    .contact-btn {
-      font-size: 28px;
+  @media only screen and (min-width: 1700px) {
+    .container-contact-btn {
+      margin-top: 32px;
     }
   }
