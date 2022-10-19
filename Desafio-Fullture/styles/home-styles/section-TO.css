@@ -1,7 +1,7 @@
   section.background-toys {
     display: flex;
     flex-direction: column;
-    min-height: 600px;
+    min-height: 750px;
     color: var(--gray);
   }
 
@@ -49,7 +49,7 @@
 
   @media only screen and (min-width: 1700px) {
     section.background-toys {
-      min-height: 1000px;
+      min-height: 1100px;
     }
 
     .background-toys .button {

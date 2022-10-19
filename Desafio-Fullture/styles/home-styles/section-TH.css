@@ -1,7 +1,7 @@
   section.background-thor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 600px;
+    min-height: 750px;
     background-size: cover;
     background-image: url(
       /imagens-atualizadas/thor_header.jpg
@@ -32,6 +32,6 @@
 
   @media only screen and (min-width: 1700px) {
     section.background-thor {
-      min-height: 1000px;
+      min-height: 1100px;
     }
   }
