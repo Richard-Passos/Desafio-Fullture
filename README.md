@@ -9,7 +9,7 @@ Desafio Fullture para fazer 3 páginas para um empresa que vende Funkos
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é recomendado acessar:
-
+```
 ```
 
 ## :handshake: Colaboradores
