@@ -1,16 +1,15 @@
-<h1 align="center">:file_cabinet: Todo List</h1>
+<h1 align="center">:file_cabinet: Home_Page - Catálogo - Formulário</h1>
 
 ## :memo: Descrição
-Desafio Fullture para fazer uma Todo List com Login e Register Page
+Desafio Fullture para fazer 3 páginas para um empresa que vende Funkos
 
 ## :wrench: Tecnologias utilizadas
 * HTML;
 * CSS;
-* JavaScript;
 
 ## :rocket: Rodando o projeto
-Para rodar o repositório é recomendado acessar o NodeJs e colar:
-node index.js
+Para rodar o repositório é recomendado acessar:
+
 ```
 
 ## :handshake: Colaboradores
