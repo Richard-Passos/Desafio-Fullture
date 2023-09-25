@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     min-height: 750px;
     background-size: cover;
-    background-image: url(/../imagens-atualizadas/thor_header.jpg);
+    background-image: url(../../imagens-atualizadas/thor_header.jpg);
     background-position: 45%;
     color: var(--white);
   }
