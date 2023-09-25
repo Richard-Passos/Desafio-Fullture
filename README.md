@@ -15,7 +15,7 @@ Challenge from Fullture School, build a website, with home page, contact page an
 
 ## :rocket: Run project
 ```
-https://richard-passos.github.io/fullture-challenge-t2/
+https://richard-passos.github.io/fe-marvel-toys/
 ```
 
 <br>
