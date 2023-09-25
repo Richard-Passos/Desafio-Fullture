@@ -2,9 +2,7 @@
     width: 100%;
     min-height: 850px;
     background-size: cover;
-    background-image: url(
-      ../../imagens-atualizadas/spidermanheader.jpg
-      );
+    background-image: url(../../imagens-atualizadas/spidermanheader.jpg);
     background-position: center;
   }
 
