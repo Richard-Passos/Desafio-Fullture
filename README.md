@@ -1,23 +1,31 @@
-<h1 align="center">:file_cabinet: Home_Page - Catálogo - Formulário</h1>
+<h1 align="center">:file_cabinet: Title</h1>
 
-## :memo: Descrição
-Desafio Fullture para fazer 3 páginas para um empresa que vende Funkos
+<br>
 
-## :wrench: Tecnologias utilizadas
-* HTML;
-* CSS;
+## :memo: Description
+Challenge from Fullture School, build a website, with home page, contact page and .
 
-## :rocket: Rodando o projeto
-Para rodar o repositório é recomendado acessar:
+<br>
+
+## :wrench: Technologies used
+* CSS
+* HTML
+
+<br>
+
+## :rocket: Run project
 ```
+https://richard-passos.github.io/fullture-challenge-t2/
 ```
 
-## :handshake: Colaboradores
+<br>
+
+## :handshake: Team
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/Richard-Passos">
-        <img src="https://img.freepik.com/vetores-premium/desenho-de-desenho-animado-de-um-programador_29937-8176.jpg" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <img src="https://img.freepik.com/vetores-premium/desenho-de-desenho-animado-de-um-programador_29937-8176.jpg" width="100px;" alt="A boy with headphones holding a laptop."/><br>
         <sub>
           <b>Richard P</b>
         </sub>
@@ -26,5 +34,7 @@ Para rodar o repositório é recomendado acessar:
   </tr>
 </table>
 
-## :dart: Status do projeto
-Finalizado
+<br>
+
+## :dart: Status
+Finished
