@@ -3,7 +3,7 @@
 <br>
 
 ## :memo: Description
-Challenge from Fullture School, build a website, with home page, contact page and .
+Challenge from Fullture School, build a website, with home page, contact page and catalog page, based on Marvel toys.
 
 <br>
 
