@@ -1,24 +1,24 @@
+.background-contact-img {
+  min-height: 850px;
+  background-image: url(../../images/contatoheader.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-title {
+  min-width: 230px;
+  min-height: 150px;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 1700px) {
   .background-contact-img {
-    min-height: 850px;
-    background-image: url(/imagens-atualizadas/contatoheader.jpg);
-    background-size: cover;
-    background-position: center;
+    min-height: 1300px;
   }
 
-  .contact-title {
-    min-width: 230px;
-    min-height: 150px;
+  .container-title-img .contact-title {
+    width: 550px;
+    height: 350px;
   }
-
-  /* Responsive */
-
-  @media only screen and (min-width: 1700px) {
-    .background-contact-img {
-      min-height: 1300px;
-    }
-    
-    .container-title-img .contact-title {
-      width: 550px;
-      height: 350px;
-    }
-  }
+}

@@ -1,21 +1,21 @@
+section.background-spider-man {
+  width: 100%;
+  min-height: 850px;
+  background-size: cover;
+  background-image: url(../../images/spidermanheader.jpg);
+  background-position: center;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
   section.background-spider-man {
-    width: 100%;
-    min-height: 850px;
-    background-size: cover;
-    background-image: url(../../imagens-atualizadas/spidermanheader.jpg);
-    background-position: center;
+    background-position: 45%;
   }
+}
 
-  /* Responsive */
-
-  @media only screen and (max-width: 600px) {
-    section.background-spider-man {
-      background-position: 45%;
-    }
+@media only screen and (min-width: 1700px) {
+  section.background-spider-man {
+    min-height: 1200px;
   }
-
-  @media only screen and (min-width: 1700px) {
-    section.background-spider-man {
-      min-height: 1200px;
-    }
-  }
+}

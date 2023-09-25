@@ -1,44 +1,44 @@
+.catalog-background-img {
+  width: 100%;
+  min-height: 850px;
+  background-image: url(../../images/captainmarvelheader.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-title-img .catalog-title {
+  min-width: 230px;
+  min-height: 150px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
   .catalog-background-img {
-    width: 100%;
-    min-height: 850px;
-    background-image: url(/imagens-atualizadas/captainmarvelheader.jpg);
-    background-size: cover;
-    background-position: center;
+    background-position: 49%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .catalog-background-img {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .catalog-background-img {
+    height: 700px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .catalog-background-img {
+    min-height: 1200px;
+    background-position: center 65%;
   }
 
   .container-title-img .catalog-title {
-    min-width: 230px;
-    min-height: 150px;
+    width: 650px;
+    height: 350px;
   }
-
-  /* Responsive */
-
-  @media only screen and (max-width: 600px) {
-    .catalog-background-img {
-      background-position: 49%;
-    }
-  }
-
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
-    .catalog-background-img {
-      height: 600px;
-    }
-  }
-
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .catalog-background-img {
-      height: 700px;
-    }
-  }
-
-  @media only screen and (min-width: 1700px) {
-    .catalog-background-img {
-      min-height: 1200px;
-      background-position: center 65%;
-    }
-
-    .container-title-img .catalog-title {
-      width: 650px;
-      height: 350px;
-    }
-  }
+}
